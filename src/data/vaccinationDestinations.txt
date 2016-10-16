@@ -1,0 +1,4 @@
+% pr visit Flu Centre for Vaccination
+0.50
+% pr visit primCare for Vaccination
+0.50

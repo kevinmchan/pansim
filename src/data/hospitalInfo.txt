@@ -1,0 +1,47 @@
+% This file stores information about each of the hospitals and hospital capacity -> Probs calculated in excel sheet
+% number of hospitals
+33
+
+%percent full
+0.90
+
+%Daily Turnover Rate
+0.10
+
+% LHIN	Hospital_Name	Maxpatients_in_Hospital(Capacity)	NumDoctors	NumNurses	PrVisitHospital
+0	Campbellford_Memorial	24	78	20	0.0124
+0	Haliburton_Highlands_Health_Services	14	37	20	0.0073
+0	Lakeridge_Health_Bowmanville	120	115	100	0.06214
+0	Lakeridge_Health_Oshawa	367	322	300	0.19
+0	Lakeridge_Health_Port_Perry	26	55	30	0.01346
+0	Lakeridge_Health_Whitby	20	21	20	0.01035
+0	Northumberland_Hills	20	127	20	0.01035
+0	Peterborough_Regional	494	311	500	0.2558
+0	Ross_Memorial	150	137	150	0.0776
+0	Rouge_Valley_Ajax_and_Pickering	144	210	150	0.0746
+0	Scarborough	552	343	500	0.286
+1	Humber_River_Regional	549	600	500	0.2637
+1	Markham_Stouffville_Regional_Hospital	225	275	200	0.1081
+1	North_York_General	400	485	400	0.1921
+1	Southlake_Regional	370	361	400	0.1777
+1	Stevenson_Memorial	32	78	40	0.01537
+1	York_Central	506	338	500	0.24303
+2	Mount_Sinai	464	915	400	0.0986
+2	StJoseph	376	364	300	0.0799
+2	StMichael	550	626	500	0.117
+2	Sunnybrook	1275	804	1000	0.271
+2 	Sick_Kids	370	591	300	0.08
+2	Toronto_East_General	515	286	500	0.1095
+2	Toronto_General	406	820	400	0.086
+2	Western	249	721	200	0.052
+2	Womens_College	500	500	500	0.106
+3	Headwaters_Healthcare	108	128	100	0.123
+3	Osler_Health_Care	773	700	700	0.877
+4	Credit_Valley	365	434	400	0.2468
+4	Milton_District	43	67	40	0.0291
+4	Oakville_Trafalgar_Memorial	247	198	200	0.167
+4	Georgetown	50	33	50	0.338
+4	Trillium	774	714	700	0.5233
+
+%Overcrowding factor
+1.10

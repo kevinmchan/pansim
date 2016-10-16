@@ -1,0 +1,17 @@
+% Death rate
+0.07
+
+% Transmission rates by age group
+0.000590	0.000620	0.000330	0.000800
+0.000580	0.000610	0.000330	0.000800
+0.000570	0.000530	0.000320	0.000800
+0.000570	0.000540	0.000290	0.001020
+
+%range for # of days person will be contagious on getting sick (by age: <20, <40, >=40). Could be anywhere in between these 2 lengths (these can be modified due to various factors including seeking help from healthcare)
+4   5
+4   5
+4   5
+3   10
+
+% length of the latent period in days
+2

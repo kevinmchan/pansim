@@ -1,0 +1,100 @@
+% Number of household sizes
+6
+
+% Household sizes and numbers of each size
+1	447490
+2	542495
+3	349977
+4	262166
+5	258931
+6	91738 
+
+% Number of individual ages
+18
+
+% Age ranges (lower bounds) 
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+60
+65
+70
+75
+80
+85
+
+% Number of age groups
+4
+
+% Age group break points (upper bounds)
+5
+18
+64
+100
+
+% Household contact duration (min) by age group
+120	60	120	60
+60	120	120	60
+120	120	120	120
+60	60	120	120
+
+% Community contact duration (min) by age group
+60      30      60      10
+30      90 60  10
+60      60      70      20
+10       10       20      60
+
+%Hospital contact duration (min) by age group (assume is the same for patients/nurses/doctors)
+30  30  30  30
+30  30  30  30
+30  30  30  30
+30  30  30  30
+
+%flu centre contact duration (min) by age group
+30  30  30  30
+30  30  30  30
+30  30  30  30
+30  30  30  30
+
+%primary care contact duration (min) by age group
+30  30  30  30
+30  30  30  30
+30  30  30  30
+30  30  30  30
+
+% Community contact numbers by age group
+2       1       1       1
+1       8       2       1
+1       1       7       1
+1       1       1       1
+
+% School contact duration (min) in classroom row 1=students contact with students in same age range ,row 2=teachers contact with students  
+300 300 300  
+300 300	300	
+
+%Duration of school break (i.e, lunch) in min
+60
+
+%Number of classes in a day
+5
+
+% Minimum and maximum working ages
+18 64
+
+% Minimum and maximum student ages
+5 18
+
+% Minimum and maximum teacher ages 
+22 64
+
+% work contact numbers by workplace type (within office) -> modification to community contact, scaled by level of risk
+8 8 8 8 8

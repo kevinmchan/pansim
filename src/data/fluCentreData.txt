@@ -1,0 +1,25 @@
+%Flu Centre info
+%number of flu centers
+20
+
+%LHIN	FC Name	#Docs	#Nurses	PrVisit
+0	CW1	5	5	0.25
+0	CW2	5	5	0.25
+0	CW3	5	5	0.25
+0	CW4	5	5	0.25
+1	MH1	5	5	0.25
+1	MH2	5	5	0.25
+1	MH3	5	5	0.25
+1	MH4	5	5	0.25
+2	TOC1	5	5	0.25
+2	TOC2	5	5	0.25
+2	TOC3	5	5	0.25
+2	TOC4	5	5	0.25
+3	C1	5	5	0.25
+3	C2	5	5	0.25
+3	C3	5	5	0.25
+3	C4	5	5	0.25
+4	CE1	5	5	0.25
+4	CE2	5	5	0.25
+4	CE3	5	5	0.25
+4	CE4	5	5	0.25

@@ -1,0 +1,9 @@
+Infected?	KnownInfected?	Behaviour	staysHome	inHome	inCommunity	usesTrans	patientType
+yes	yes	gotohospital	true	false	false	false	_INFECTEDPATIENT_
+yes	yes	gotoprimcare	true	true	false	false	_PRIMPATIENT_
+yes	yes	gotoflucentre	true	true	false	false	_FLUCPATIENT_
+yes	yes	gotowork	false	true	true	true	_NONPATIENT_
+yes	yes	stayshome	true	true	false	false	_NONPATIENT_
+yes	no	atWorkAlready	false	true	true	true	_NONPATIENT_
+yes	no	stayInHospital	true	false	false	false	_INFECTEDPATIENT_(wasnotinf)
+yes	no	releasedfromHosp(returntowork)	false	true	true	true	_NONPATIENT_

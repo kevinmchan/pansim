@@ -1,0 +1,63 @@
+% Number of initial cases	
+7		
+	
+% School closure threshold (number of infected)	
+1	
+	
+% Number of Days a school will be closed once exceeds % infected school closure threshold	
+0	
+	
+"% Vaccine effectiveness [0,1]"	
+0.9	
+	
+% Number of vaccine priority age groups	
+2	
+	
+% Vaccine priority age groups lower age <tab> upper age	
+0	18
+60	100
+	
+% indirect household contact	
+0.0000001	
+	
+% indirect school contact	
+0.0000001	
+	
+% Number of days till vaccine is effective	
+10	
+	
+"% school closure policy (options: randomPercentage, enrolmentSize, popInfectionLevel, schoolInfectionLevel, schoolBoard, schoolLevel, sendInfectedHome, noPolicy, multiPolicy)"	
+noPolicy	
+	
+% indicate on what day the school closure policy should be implemented	
+0	
+	
+% percentage of the entire population that needs to be infectious to have schools close (used only if this policy is selected)	
+0	
+	
+% percentage of schools to randomly select and close	
+0	
+	
+"% number of school boards to close (can be any integer in [0,16] )"	
+0	
+	
+% list of the school boards that should be closed (make sure there are as many boards selected as the number above)	
+	
+	
+% min size of school (enrolment) to close the school after n days (the day that school policy should be implemented - written above)	
+0	
+	
+"% number of school levels to close (can be any integer in [0,5])	"	
+6	
+	
+% list of school levels that should be closed (make sure there are as many levels selected as the number above)	
+0 1 2 3 4 5	
+	
+%Workclosure policy (only one at present = workInfectionLevel)	
+	
+	
+%percent infected at work to close	
+0.05	
+	
+% Max number of days an office can be closed for	
+0	

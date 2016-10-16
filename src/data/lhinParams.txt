@@ -1,0 +1,23 @@
+% LHIN 5 - Central West  _5_ --> CentralW (3)
+0
+
+%  _6_  LHIN 6 - Mississauga Halton -->MissHalton (4)
+1
+
+%  _7_  LHIN 7 - Toronto Central -->TOCentral (2)
+2
+
+% _8_LHIN 8 - Central -->Central (1)
+3
+
+%  _9_ LHIN 9 - Central East-->CentralE (0)
+4
+
+% number of local health integration networks (LHINs) _nLHINs_ --> nLHINS
+5
+
+%  _nGTAHospitals_  total number of GTA acute care hospitals -->nGTAHospitals
+27
+
+% The most acute care hospitals within a LHIN, to dictate the size of the array _nMaxHospitalsPerLHIN_ --> nMaxHospitalsPerLHIN 
+9

@@ -1,0 +1,6 @@
+# Contact Duration  Hazard Rate (7 hours per day each)
+0 420              0.125
+1 420              0.125
+2 420             0.125
+3 420              0.125
+4 420            0.125

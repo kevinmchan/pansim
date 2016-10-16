@@ -1,0 +1,14 @@
+% numInitialAdopters
+5
+
+% ICM scalingFactor
+0.1
+
+% dailyVaccinationCount
+30000
+
+% startVaccinationDate
+10
+
+% maxVaccines
+3000000

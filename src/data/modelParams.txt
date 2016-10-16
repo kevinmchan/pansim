@@ -1,0 +1,107 @@
+% Number of simulations
+1
+
+% Number of days in the outbreak
+200
+
+% Scenario name
+Scenario1
+
+% Input directory; requires closing slash /data02/morPOP/data/ : /data/
+./data/
+
+% Output directory (not including scenario name folder); requires closing slash /data02/morPOP/output/vaccines/  /morLAB/morPOP/output/test/
+./output/
+
+% File: Vaccine plan info
+scenarioParams_1.txt
+
+% File: Daily vaccination rates file
+dailyVaccinationRates2.txt
+
+% File: Disease parameters
+diseaseParams.txt
+
+% File: Population parameters
+populationParams.txt
+
+% File: Population parameters
+Age_Dissemination.txt
+
+% File: Dissemination Areas and Household Structures
+GTA_HH_Structures.txt
+
+% File: Dissemination Household Sizes
+GTA_HH_Dissemination_Sizes.txt
+
+% File: Routes taken by population according to dissemination area
+subwayRoutes_disseminationAreas.txt
+
+% File: Transportation route data
+routeData.txt
+
+% File: LHIN information paramters
+lhinParams.txt
+
+% File: health parameters
+healthParams.txt
+
+%File: ageContactDuration_hospital nurse
+ageContactDuration_hospital_nurse.txt
+
+%File: ageContactDuration_hospitalPatient
+ageContactDuration_hospitalPatient.txt
+
+%File: ageContactNumber_hospital.txt
+ageContactNumber_hospital.txt
+
+%File: LHIN data
+LHINData.txt
+
+%File: Hospital info
+hospitalInfo.txt
+
+%File: Flu Centre info
+fluCentreData.txt
+
+%File: vaccination destination in
+vaccinationDestinations.txt
+
+%File: Primary Care Doctors information
+primData.txt
+
+%File:All Schools with various attributes (level, name, school board)
+GTA_Schools_All.txt
+
+%File: Junior School probabilities
+GTA_Schools_Junior.txt
+
+%File: Intermediate School probabilities
+GTA_Schools_Intermediate.txt
+
+%File: Senior School probabilities
+GTA_Schools_Senior.txt
+
+%File: Mapping for dAUid to Census Division
+Census_Division_Mapping.txt
+
+%File: Probabilities of there being a particular type of workplace for each dAUid
+DAIndex.txt
+
+%File: Hazard rates for each work class
+DAWorkClass.txt
+
+%File: Office sizess for workplaces
+Workplace_Office_Sizes.txt
+
+%File: Cumulative probabilities of there being a workplace in each dissemination area
+workplacesbyDA.txt
+
+%File: Probabilities of a commuter working in another region
+Commuter_Distribution.txt
+
+%File: Matches a route to the destination
+go_Transit_Route.txt
+
+%File: Stores the x,y coordinates in meters of each DAUID
+DAUID_Distances.txt

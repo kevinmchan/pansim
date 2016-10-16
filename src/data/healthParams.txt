@@ -1,0 +1,35 @@
+% probability an individual stays home
+0.10
+
+% probability an individual continues work/school _PRCONTINUEWORK_: susceptible, infectious
+0.90
+
+% _PRVISITED_ probability an individual presents at the ED: susceptible, infectious
+0.5
+
+% _PRVISITPRIMCARE_   probability an individual visits primary care physician or 'flu clinic': susceptible, infectious
+0.5
+
+% _HospitalizationRate_  Probability of visiting the ED within a 60-day simulation (20% probability of visiting ED within one year) (ICES): susceptible, infectious
+0.032877
+
+% _PrIsolation_ Probability of an individual being isolated in the hospital: susceptible, infectious
+0.20
+
+% _PrEDPatienttoPatientContact_ probability an an infected patient and a particular patient are sitting within 2m in the:  ED   primary care    flu centre
+0.04    0.04    0.04
+
+% double _PrEDNursetoPatientContact_ probability a nurse and a particular patient are within 2m of one another : ED(hospitals)  primary care    flucentre
+0.25    0.25    0.25
+
+%probability doctor to patient contact: hospitals   primary care    flucentre (currently assumed same as nurse to patient)
+0.25    0.25    0.25
+
+%prob of Nurse-to-Nurse contact:   1/10 of patient-to-patient contact:  hospital    primary care    flucentre
+0.004   0.004   0.004
+
+%prob of Doctor-to-Doctor contact: 1/10 of patient-to-patient contact:  hospital  primary care    flucentre 
+0.004   0.004   0.004
+
+%prob of Nurse-to-Doctor contact
+0.004   0.004   0.004
